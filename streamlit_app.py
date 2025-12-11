@@ -1,14 +1,3 @@
-"""
-Class: CS230--Section 5
-Name: Owen Hegarty
-Description: This code is used for the home page and directory for the final project, in it, viewers will see some fun facts
-before seeing the rest of the pages that showcase other different information on airports around the globe.
-I pledge that I have completed the programming assignment
-independently.
-I have not copied the code from a student or any source.
-I have not given my code to any student.
-"""
-
 import streamlit as st
 import pandas as pd
 
@@ -64,6 +53,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
 
