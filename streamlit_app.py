@@ -16,7 +16,7 @@ from Global_Statistics import main as page2_main
 from Airport_Finder import main as page3_main
 from Recordholders import main as page4_main
 
-FILENAME = "FinalProject/airport-codes.csv" #Setting symbolic constant
+FILENAME = "airport-codes.csv" #Setting symbolic constant
 
 def home_page_content():
     df = pd.read_csv(FILENAME)
@@ -64,5 +64,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
