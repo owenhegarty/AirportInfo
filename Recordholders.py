@@ -1,14 +1,3 @@
-"""
-Class: CS230--Section 5
-Name: Owen Hegarty
-Description: This page of code is used for the recordholders page of my final project, where users can see some cool information
-on the airports with the most extreme data, like highest/lowest elevation, and the country with the most airports.
-I pledge that I have completed the programming assignment
-independently.
-I have not copied the code from a student or any source.
-I have not given my code to any student.
-"""
-
 import streamlit as st
 import pandas as pd
 
@@ -75,3 +64,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
