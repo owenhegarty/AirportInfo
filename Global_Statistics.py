@@ -1,14 +1,3 @@
-"""
-Class: CS230--Section 5
-Name: Owen Hegarty
-Description: This code is used for the Global Statistics page on the website, where users can find information on the types
-of airports around the world, including how many there are and where they are.
-I pledge that I have completed the programming assignment
-independently.
-I have not copied the code from a student or any source.
-I have not given my code to any student.
-"""
-
 import streamlit as st
 import pandas as pd
 import pydeck as pdk
@@ -155,4 +144,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
