@@ -12,7 +12,7 @@ I have not given my code to any student.
 import streamlit as st
 import pandas as pd
 
-FILENAME = "FinalProject/airport-codes.csv"
+FILENAME = "airport-codes.csv"
 
 df = pd.read_csv(FILENAME)
 
@@ -73,4 +73,5 @@ def main():
     st.divider()
 
 if __name__ == '__main__':
+
     main()
