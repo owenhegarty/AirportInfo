@@ -12,7 +12,7 @@ I have not given my code to any student.
 import streamlit as st
 import pandas as pd
 
-FILENAME = "FinalProject/airport-codes.csv"
+FILENAME = "airport-codes.csv"
 
 def main():
     df = pd.read_csv(FILENAME)
@@ -53,4 +53,5 @@ def main():
             st.warning(f"No airports found matching '{search_term}'. Please retry your search.") #[ST3]
 
 if __name__ =='__main__':
+
     main()
