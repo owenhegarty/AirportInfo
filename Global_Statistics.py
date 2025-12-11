@@ -14,7 +14,7 @@ import pandas as pd
 import pydeck as pdk
 import matplotlib.pyplot as plt
 
-FILENAME = 'FinalProject/airport-codes.csv' #Setting symbolic constant
+FILENAME = 'airport-codes.csv' #Setting symbolic constant
 
 def identify_data(filename):
     df = pd.read_csv(filename)
@@ -155,3 +155,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
