@@ -24,7 +24,7 @@ def main():
     #Creating a text input for users to enter a city a term that coincides with the airport they're looking for, placeholder term found through streamlit "text input info"
     search_term = st.text_input(
         "Start typing the airport name or code here:",
-        placeholder="e.g., 'JFK', 'Laguardia', or 'Newark'")
+        placeholder="e.g., 'JFK', 'La Guardia', or 'Newark'")
 
     if search_term:
         term = search_term.lower() #setting term to lowercase to make it easier to find
@@ -55,3 +55,4 @@ def main():
 if __name__ =='__main__':
 
     main()
+
